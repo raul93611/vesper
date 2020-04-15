@@ -1065,10 +1065,25 @@
   <script src="<?php echo bloginfo('template_url'); ?>/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="<?php echo bloginfo('template_url'); ?>/assets/vendor/venobox/venobox.min.js"></script>
   <script src="<?php echo bloginfo('template_url'); ?>/assets/vendor/aos/aos.js"></script>
+  <!-- WhatsChat.co widget -->
 
+
+<!-- WhatsChat.co widget -->
   <!-- Template Main JS File -->
   <script src="<?php echo bloginfo('template_url'); ?>/assets/js/main.js"></script>
-
+  <script type="text/javascript">
+    (function () {var options = {
+    whatsapp: "59167190873", // WhatsApp number
+    position: "left", // Position may be 'right' or 'left'.
+    image: "", //Image to display. Leave blank to display whatsapp defualt icon
+    text:"Obtener Botón",
+    link_to:"https://whatschat.co"};
+    var proto = document.location.protocol, host = "https://whatschat.co", url = host;
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/whatsapp/init4.js';
+    s.onload = function () { getbutton(host, proto, options); };
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+  </script>
 </body>
 
 </html>
