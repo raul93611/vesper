@@ -45,7 +45,7 @@
       <div class="logo mr-auto">
         <!--<h1 class="text-light"><a href="index.html"><span>Vesperr</span></a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/LOGO-OFICIAL-solo-letras.png" alt="" class="img-fluid"></a>
+        <a href="<?php home_url("/");?>"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/LOGO-OFICIAL-solo-letras.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -53,7 +53,7 @@
           <li class="active"><a href="#header">Inicio</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#portfolio">Productos</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Contacto</a></li>
           <li class="get-started"><a href="#about">Acerca de</a></li>
         </ul>
       </nav><!-- .nav-menu -->

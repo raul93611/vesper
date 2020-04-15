@@ -166,6 +166,10 @@
       layoutMode: 'fitRows'
     });
 
+    portfolioIsotope.isotope({
+      filter: $('#portfolio-flters li').data('filter')
+    });
+
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
@@ -177,7 +181,9 @@
 
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
-      $('.venobox').venobox();
+      $('.venobox').venobox({
+        share: ['download']
+      });
     });
   });
 

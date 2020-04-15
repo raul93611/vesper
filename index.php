@@ -8,7 +8,7 @@
           <h1 data-aos="fade-up">Grow your business with Vesperr</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">We are team of talanted designers making websites with Bootstrap</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" class="btn-get-started scrollto">Acerca de</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -61,7 +61,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>About Us</h2>
+          <h2>Nosotros</h2>
         </div>
 
         <div class="row content">
@@ -82,7 +82,6 @@
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
           </div>
         </div>
 
@@ -95,7 +94,7 @@
 
         <div class="row">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/counts-img.svg" alt="" class="img-fluid">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/barco.png" alt="" class="img-fluid">
           </div>
 
           <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
@@ -104,31 +103,31 @@
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="icofont-simple-smile"></i>
-                    <span data-toggle="counter-up">65</span>
+                    <!--<span data-toggle="counter-up"></span>-->
                     <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="icofont-document-folder"></i>
-                    <span data-toggle="counter-up">85</span>
+                    <i class="icofont-simple-smile"></i>
+                    <!--<span data-toggle="counter-up"></span>-->
                     <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="icofont-clock-time"></i>
-                    <span data-toggle="counter-up">12</span>
+                    <i class="icofont-simple-smile"></i>
+                    <!--<span data-toggle="counter-up"></span>-->
                     <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="icofont-award"></i>
-                    <span data-toggle="counter-up">15</span>
+                    <i class="icofont-simple-smile"></i>
+                    <!--<span data-toggle="counter-up"></span>-->
                     <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                   </div>
                 </div>
@@ -145,7 +144,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
+          <h2 id="services_title">Services</h2>
           <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
         </div>
 
@@ -188,7 +187,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= More Services Section ======= -->
-    <section id="more-services" class="more-services">
+    <!--<section id="more-services" class="more-services">
       <div class="container">
 
         <div class="row">
@@ -232,10 +231,10 @@
         </div>
 
       </div>
-    </section><!-- End More Services Section -->
+    </section>--><!-- End More Services Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <!--<section id="features" class="features">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -319,10 +318,10 @@
         </div>
 
       </div>
-    </section><!-- End Features Section -->
+    </section>--><!-- End Features Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!--<section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -400,67 +399,40 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>--><!-- End Testimonials Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
+          <h2 id="products_title">Productos</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-web" class="filter-active">1</li>
+              <li data-filter=".filter-app">2</li>
+              <li data-filter=".filter-card">3</li>
+              <!--<li data-filter=".filter-web">Web</li>-->
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/0,90.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>0,90</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/0,90.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
@@ -468,27 +440,64 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,00.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4>1,00</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,00.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,15.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>1,15</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,15.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,30.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>1,30</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,30.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,60..jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>1,60.</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,60..jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,60.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>1,60</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/3/1,60.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
@@ -496,41 +505,90 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/GUANTES_DE_LATEX.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Guantes de Latex</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/GUANTES_DE_LATEX.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/GUANTES_DE_LATEX_1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>Guantes de Latex 1</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/GUANTES_DE_LATEX_1.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/MANGA_PROTECTORA_G.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>Manga Protectora G</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/MANGA_PROTECTORA_G.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/MANGAS_PROTECTORAS.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mangas Protectoras</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/MANGAS_PROTECTORAS.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/MANGAS_PROTECTORAS_N1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mangas Protectoras N1</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/MANGAS_PROTECTORAS_N1.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/TRAJE_DE_BIOSEGURIDAD_G.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Traje de Bioseguridad G</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/TRAJE_DE_BIOSEGURIDAD_G.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/TRAJE_DE_BIOSEGURIDAD_N.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Traje de Bioseguridad N</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/2/TRAJE_DE_BIOSEGURIDAD_N.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
@@ -538,13 +596,129 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/BATA_DE_PROTECCION_N.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Bata de Proteccion N</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/BATA_DE_PROTECCION_N.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/BATA_DE_PROTECION_G.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bata de Proteccion G</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/BATA_DE_PROTECION_G.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/BATA_DE_PROTECION_G_1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bata de Proteccion G1</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/BATA_DE_PROTECION_G_1.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_DESECHABLE.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cofia Desechable</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_DESECHABLE.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_DESECHABLE.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cofia Desechable</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_DESECHABLE.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_G2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cofia G2</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_G2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_N.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cofia N</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/COFIA_N.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/CUBRE_ZAPATOS_DESECHABLES.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cubre Zapatos Desechables</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/CUBRE_ZAPATOS_DESECHABLES.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/CUBRE_ZAPATOS_DESECHABLES_1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cubre Zapatos Desechables</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/CUBRE_ZAPATOS_DESECHABLES_1.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/CUBRE_ZAPATOS_G.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cubre Zapatos G</h4>
+                <div class="portfolio-links">
+                  <a href="<?php echo bloginfo('template_url'); ?>/assets/img/productos/1/CUBRE_ZAPATOS_G.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
                 </div>
               </div>
             </div>
@@ -556,7 +730,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <!--<section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -641,10 +815,10 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>--><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!--<section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
@@ -708,10 +882,10 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section>--><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!--<section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -728,7 +902,7 @@
               Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-5">
@@ -740,7 +914,7 @@
               Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-5">
@@ -752,7 +926,7 @@
               Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-5">
@@ -764,7 +938,7 @@
               Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
           <div class="col-lg-5">
@@ -776,40 +950,34 @@
               Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
             </p>
           </div>
-        </div><!-- End F.A.Q Item-->
+        </div>
 
       </div>
-    </section><!-- End F.A.Q Section -->
+    </section>--><!-- End F.A.Q Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title">
           <h2>Contact Us</h2>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6">
             <div class="contact-about">
-              <h3>Vesperr</h3>
+              <img src="<?php echo bloginfo('template_url'); ?>/assets/img/LOGO-OFICIAL-sin-sombra.png" alt="" height="150" width="150">
               <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
               <div class="social-links">
-                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
                 <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
                 <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
             <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
 
               <div>
                 <i class="ri-mail-send-line"></i>
@@ -824,7 +992,7 @@
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-5 col-md-12">
             <form action="<?php echo admin_url( 'admin-post.php' ) ?>" method="post" role="form" class="php-email-form">
               <div class="form-group">
                 <input required type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
