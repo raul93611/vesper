@@ -10,7 +10,7 @@ function send_mail_data() {
 	$subject = sanitize_text_field($_POST['subject']);
 	$message = sanitize_textarea_field($_POST['message']);
 
-	$adminmail = "raul93611@gmail.com"; //email destino
+	$adminmail = "administracion@pracmatik.com"; //email destino
 	$headers = "Reply-to: " . $name . " <" . $email . ">";
 
 	//Cuerpo del mensaje

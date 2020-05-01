@@ -51,7 +51,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header">Inicio</a></li>
-          <li><a href="#services">Servicios</a></li>
+          <li><a href="#services">Políticas</a></li>
           <li><a href="#portfolio">Productos</a></li>
           <li><a href="#contact">Contacto</a></li>
           <li class="get-started"><a href="#about">Acerca de</a></li>

@@ -1034,6 +1034,7 @@ section {
 
 .portfolio-wrap img{
   width: 100% !important;
+  height: 100% !important;
 }
 
 .portfolio .portfolio-wrap::before {
