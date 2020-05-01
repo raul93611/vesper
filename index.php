@@ -622,6 +622,7 @@
 <!-- WhatsChat.co widget -->
   <!-- Template Main JS File -->
   <script src="<?php echo bloginfo('template_url'); ?>/assets/js/main.js"></script>
+  <!--
   <script type="text/javascript">
     (function () {var options = {
     whatsapp: "59177590108", // WhatsApp number
@@ -635,6 +636,7 @@
     var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
   </script>
+-->
 </body>
 
 </html>
