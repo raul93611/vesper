@@ -95,10 +95,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-#header .logo img {
+.custom-logo {
   padding: 0;
   margin: 0;
-  max-height: 200px;
+  max-width: 200px !important;
+  max-height: 50px !important;
 }
 
 @media (max-width: 768px) {

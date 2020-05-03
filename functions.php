@@ -27,4 +27,22 @@ function send_mail_data() {
 
 	wp_redirect( home_url("/") ); //asumiendo que existe esta url
 }
+
+//crear menu
+if(function_exists('register_nav_menus')){
+	register_nav_menus(array('superior' => 'Menu Superior'));
+	register_nav_menus(array('inferior' => 'Menu Inferior'));
+}
+
+//agregar clases al primer y ultimo elemento del menu
+function add_first_and_last($items) {
+  $items[1]->classes[] = 'active';
+  $items[count($items)]->classes[] = 'get-started';
+  return $items;
+}
+
+add_filter('wp_nav_menu_objects', 'add_first_and_last');
+
+// agregar custom LOGO
+add_theme_support( 'custom-logo' );
 ?>
