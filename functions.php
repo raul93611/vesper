@@ -43,6 +43,19 @@ function add_first_and_last($items) {
 
 add_filter('wp_nav_menu_objects', 'add_first_and_last');
 
+//agregar clase scrollto para el menu Inferior
+add_filter('nav_menu_link_attributes', 'clase_a', 10, 3);
+
+function clase_a($atts, $item, $args){
+	$class = 'scrollto';
+	$atts['class'] = $class;
+	return $atts;
+}
+
 // agregar custom LOGO
 add_theme_support( 'custom-logo' );
+// agregar imagen a cada productos
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+}
 ?>
