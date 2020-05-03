@@ -203,4 +203,10 @@
     mirror: false
   });
 
+  $(document).ready(function(){
+    $('#whatsapp').click(function(){
+      $('#whatsapp_modal').modal('show');
+    });
+  });
+
 })(jQuery);

@@ -254,7 +254,7 @@
               <i class="ri-phone-line"></i>
               <p>77590108</br>
               76545060</br>
-              76545060</p>
+              73570010</p>
             </div>
           </div>
         </div>
@@ -288,6 +288,31 @@
       </div>
     </div>
   </section><!-- End Contact Section -->
-</main><!-- End #main -->
-  <!-- ======= Footer ======= -->
+  <a href="#" class="float" id="whatsapp">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+</main>
+<div class="modal fade" id="whatsapp_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-whatsapp my-float"></i> Elige con quien hablar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body list-group list-group-flush p-0">
+        <div class="list-group">
+          <a href="https://api.whatsapp.com/send?phone=59177590108" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            <i class="fa fa-user"></i> Administracion
+            <span class="badge badge-success badge-pill">77590108</span>
+          </a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <?php get_footer(); ?>

@@ -17,6 +17,7 @@
   <link href="<?php echo bloginfo('template_url'); ?>/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="<?php echo bloginfo('template_url'); ?>/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="<?php echo bloginfo('template_url'); ?>/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
   <header id="header" class="fixed-top d-flex align-items-center">
