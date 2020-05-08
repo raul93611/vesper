@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">Ahorra tiempo <br> Ahorra dinero</h1>
+        <h1 data-aos="fade-up">Seguridad en cada etapa de nuestras vidas</h1>
         <h2 data-aos="fade-up" data-aos-delay="400">Somos una empresa que ofrece Insumos de bioseguridad y soluciones para todos los sectores, cumpliendo normas de calidad.</h2>
         <div data-aos="fade-up" data-aos-delay="800">
           <a href="#about" class="btn-get-started scrollto">Acerca de</a>
@@ -61,7 +61,7 @@
     <div class="container">
       <div class="row">
         <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-          <img src="<?php echo bloginfo('template_url'); ?>/assets/img/barco.png" alt="" class="img-fluid">
+          <img src="<?php echo bloginfo('template_url'); ?>/assets/img/equipos.png" alt="" class="img-fluid">
         </div>
         <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
           <div class="content d-flex flex-column justify-content-center">
@@ -252,9 +252,9 @@
             </div>
             <div>
               <i class="ri-phone-line"></i>
-              <p>77590108</br>
-              76545060</br>
-              73570010</p>
+              <p>+591 77590108</br>
+              +591 76545060</br>
+              +591 73570010</p>
             </div>
           </div>
         </div>
@@ -305,7 +305,7 @@
         <div class="list-group">
           <a href="https://api.whatsapp.com/send?phone=59177590108" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
             <i class="fa fa-user"></i> Administracion
-            <span class="badge badge-success badge-pill">77590108</span>
+            <span class="badge badge-success badge-pill">+591 77590108</span>
           </a>
         </div>
       </div>
